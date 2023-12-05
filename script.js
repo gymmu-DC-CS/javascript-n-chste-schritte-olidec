@@ -186,3 +186,14 @@ export function aufgabe10(args) {
   }
   return result
 }
+
+export function aufgabe11(args) {
+  const input = args
+  let result = ""
+  if (input.length > 1 || input === "") {
+    result = null
+  } else {
+    result = input.charCodeAt()
+  }
+  return result
+}
